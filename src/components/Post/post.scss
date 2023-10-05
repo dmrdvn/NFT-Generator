@@ -1,0 +1,46 @@
+@import "../../sass/default/color_variable";
+.cs-blog_btn {
+  display: flex;
+  align-items: center;
+  svg {
+    margin-left: 10px;
+  }
+}
+.cs-posted_by {
+  display: flex;
+  align-items: center;
+  svg {
+    margin-right: 8px;
+  }
+}
+.cs-blog_details {
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+  blockquote {
+    font-size: 22px;
+    line-height: 1.5em;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  img {
+    margin-bottom: 30px;
+  }
+  ol {
+    margin-bottom: 20px;
+    li {
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

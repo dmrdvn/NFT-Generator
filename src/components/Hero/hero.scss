@@ -1,0 +1,326 @@
+@import "../../sass/default/color_variable";
+.cs-hero.cs-style1 {
+  position: relative;
+  padding: 70px 0;
+  min-height: 850px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  .cs-btn.cs-color1 {
+    color: #fff;
+  }
+  .cs-hero_bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    .react-parallax {
+      height: 100%;
+      width: 100%;
+    }
+    img {
+      object-fit: cover;
+      height: 100% !important;
+    }
+  }
+  .cs-dark_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+  .cs-hero_img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 14%;
+    z-index: 3;
+  }
+  .cs-hero_text {
+    position: relative;
+    z-index: 4;
+  }
+  .cs-hero_img_sm {
+    position: absolute;
+    top: 23%;
+    right: 0;
+    z-index: 1;
+    animation: rotate360 30s linear infinite;
+  }
+  .cs-hero_title {
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  .cs-hero_secondary_title {
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .cs-hero_subtitle {
+    color: #fff;
+    margin-top: 25px;
+    margin-bottom: 0;
+  }
+  &.cs-type1 {
+    .cs-hero_img_sm {
+      top: 37%;
+      right: initial;
+      left: -10%;
+    }
+  }
+  &.cs-type2 {
+    padding: 80px 0;
+    min-height: initial;
+    background-attachment: fixed;
+    .cs-hero_img {
+      position: relative;
+      right: initial;
+      top: initial;
+      transform: initial;
+      display: inline-block;
+      margin-bottom: 80px;
+    }
+    .cs-hero_img_sm {
+      right: initial;
+      left: 29%;
+      top: initial;
+      bottom: -12%;
+    }
+    .cs-btn_group {
+      justify-content: center;
+      margin-top: 40px;
+    }
+    .cs-hero_secondary_title {
+      margin-bottom: 20px;
+    }
+    .cs-hero_subtitle {
+      margin-top: 20px;
+    }
+  }
+  &.cs-type3 {
+    min-height: 700px;
+    background-position: bottom center;
+    background-attachment: fixed;
+    .cs-dark_overlay {
+      opacity: 0.65;
+    }
+  }
+}
+.cs-light .cs-hero.cs-style1 .cs-hero_bg {
+  opacity: 1 !important;
+}
+#background-wrap {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  top: 0;
+  opacity: 0.1;
+}
+
+/* KEYFRAMES */
+@-webkit-keyframes animateBubble {
+  0% {
+    margin-top: 1000px;
+  }
+  100% {
+    margin-top: -100%;
+  }
+}
+@keyframes animateBubble {
+  0% {
+    margin-top: 1000px;
+  }
+  100% {
+    margin-top: -100%;
+  }
+}
+
+@-webkit-keyframes sideWays {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 50px;
+  }
+}
+
+@keyframes sideWays {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 50px;
+  }
+}
+
+/* ANIMATIONS */
+.x1 {
+  animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  left: -5%;
+  top: 5%;
+  transform: scale(0.6);
+}
+
+.x2 {
+  animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  left: 5%;
+  top: 80%;
+  transform: scale(0.4);
+}
+
+.x3 {
+  animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  left: 10%;
+  top: 40%;
+  transform: scale(0.7);
+}
+
+.x4 {
+  animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+  left: 20%;
+  top: 0;
+  transform: scale(0.3);
+}
+
+.x5 {
+  animation: animateBubble 29s linear infinite,
+ sideWays 4s ease-in-out infinite alternate;
+  left: 30%;
+  top: 50%;
+  transform: scale(0.5);
+}
+
+.x6 {
+  animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  left: 50%;
+  top: 0;
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+}
+
+.x7 {
+  animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  left: 65%;
+  top: 70%;
+  transform: scale(0.4);
+}
+
+.x8 {
+  animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+  left: 80%;
+  top: 10%;
+  transform: scale(0.3);
+}
+
+.x9 {
+  animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  left: 90%;
+  top: 50%;
+  transform: scale(0.6);
+}
+
+.x10 {
+  animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  left: 80%;
+  top: 80%;
+  transform: scale(0.3);
+}
+
+/* OBJECTS */
+.bubble {
+  border-radius: 50%;
+          box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px white;
+  height: 200px;
+  position: absolute;
+  width: 200px;
+}
+
+.bubble:after {
+  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 70%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80ffffff', endColorstr='#00ffffff', GradientType=1);
+  border-radius: 50%;
+          box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+  content: '';
+  height: 180px;
+  left: 10px;
+  position: absolute;
+  width: 180px;
+}
+
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: 1540px) {
+  .cs-hero.cs-style1 {
+    min-height: 785px;
+  }
+}
+@media screen and (max-width: 1399px) {
+  .cs-hero.cs-style1 .cs-hero_img {
+    right: 4%;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .cs-hero.cs-style1 {
+    min-height: 688px;
+}
+}
+@media screen and (max-width: 1280px) {
+  .cs-hero.cs-style1 {
+    min-height: 720px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .cs-hero.cs-style1 {
+    .cs-hero_img {
+      right: 2%;
+      max-width: 420px;
+    }
+    .cs-hero_img_sm {
+      max-width: 120px;
+    }
+  }
+}
+@media screen and (max-width: 991px) {
+  .cs-hero.cs-style1 .cs-hero_img {
+    margin-top: 30px;
+    position: relative;
+    display: inline-block;
+    right: initial;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .cs-hero.cs-style1 {
+    .cs-hero_text {
+      text-align: center;
+    }
+    .cs-btn_group {
+      justify-content: center;
+    }
+  }
+  .cs-hero.cs-style1.cs-type2 {
+    .cs-hero_img {
+      left: initial;
+      margin-top: 0;
+    }
+  }
+  .cs-hero.cs-style1.cs-type3 {
+    min-height: initial;
+    padding: 80px 0;
+  }
+  .cs-hero.cs-style1.cs-type1 .cs-hero_img_sm {
+    left: 0;
+  }
+}

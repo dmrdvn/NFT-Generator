@@ -1,0 +1,123 @@
+.cs-dark {
+  background-color: #06182c;
+  color: rgba(255, 255, 255, 0.6);
+
+  .cs-awwow_style_1 .slick-arrow,
+  .cs-modal_container,
+  .cs-form_field_wrap label {
+    background-color: #06182c;
+  }
+  .cs-btn_bordered {
+    border-color: $white;
+    &:hover {
+      border-color: #fff;
+      color: #06182c;
+      background-color: #fff;
+    }
+  }
+  .cs-btn,
+  .cs-quantity .cs-quantity_number {
+    color: $white;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .cs-primary_color {
+    color: $white;
+  }
+  .cs-light_bg {
+    background: linear-gradient(
+      108.18deg,
+      rgba(234, 76, 137, 0.1) -2.02%,
+      rgba(77, 68, 198, 0.1) 100%
+    );
+  }
+  .cs-primary_btn {
+    background-color: #0c2e4e;
+    border-color: #0c2e4e;
+    &:hover {
+      background-color: $accent;
+      border-color: $accent;
+    }
+  }
+  .cs-card.cs-style1 {
+    background: linear-gradient(
+      90deg,
+      rgba(217, 217, 217, 0.1) -5.28%,
+      rgba(217, 217, 217, 0) 75.6%
+    );
+    .cs-card_in {
+      border-color: #394552;
+    }
+  }
+  .cs-card.cs-style1::before,
+  .cs-card.cs-style1::after {
+    background-color: #06182c;
+    border-color: #394552;
+  }
+  .cs-accent_color,
+  .cs-accent_color_hover:hover {
+    color: $accent;
+  }
+  .cs-accent_bg,
+  .cs-accent_bg_hover:hover {
+    background-color: $accent;
+  }
+  .cs-site_header.cs-style1,
+  .cs-nav .cs-nav_list ul {
+    background-color: #0a2540;
+  }
+  .cs-hide_dark {
+    display: none;
+  }
+  .cs-hide_white {
+    display: inline-block;
+  }
+  .cs-white_btn {
+    color: #06182c;
+    &:hover {
+      color: $white;
+    }
+  }
+  .page-link {
+    color: $white;
+    border-color: #0c2e4e;
+    &:hover {
+      color: $accent;
+      background-color: rgba($accent, 0.1);
+      border-color: rgba($accent, 0.1);
+    }
+  }
+  .cs-cta.cs-style1 {
+    background: linear-gradient(
+      108.18deg,
+      rgba(234, 76, 137, 0.2) -2.02%,
+      rgba(77, 68, 198, 0.2) 100%
+    );
+    backdrop-filter: blur(10px);
+  }
+  .cs-image_box.cs-style2 {
+    .cs-image_box_in {
+      background-color: #283645;
+    }
+  }
+  .cs-form_field {
+    border-color: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    &:focus {
+      border-color: $accent;
+    }
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .cs-dark {
+    .cs-nav .cs-nav_list {
+      background-color: #0a2540;
+      border-color: rgba($white, 0.1);
+    }
+  }
+}

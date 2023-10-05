@@ -1,0 +1,944 @@
+.cs-row_gap_20 {
+  margin-left: -10px;
+  margin-right: -10px;
+  > div {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.cs-light {
+  font-weight: 300;
+}
+
+.cs-normal {
+  font-weight: 400;
+}
+
+.cs-medium {
+  font-weight: 500;
+}
+
+.cs-semi_bold {
+  font-weight: 600;
+}
+
+.cs-bold {
+  font-weight: 700;
+}
+
+.cs-extra_bold {
+  font-weight: 800;
+}
+
+.cs-black {
+  font-weight: 900;
+}
+
+.cs-radius_3 {
+  border-radius: 3px;
+}
+
+.cs-radius_5 {
+  border-radius: 5px;
+}
+
+.cs-radius_7 {
+  border-radius: 7px;
+}
+
+.cs-radius_10 {
+  border-radius: 10px;
+}
+
+.cs-body_line_height {
+  line-height: 1.5em;
+}
+
+.cs-heading_line_height {
+  line-height: 1.2em;
+}
+
+.cs-font_14 {
+  font-size: 14px;
+}
+
+.cs-font_16 {
+  font-size: 16px;
+}
+
+.cs-font_18 {
+  font-size: 18px;
+}
+
+.cs-font_20 {
+  font-size: 20px;
+}
+
+.cs-font_22 {
+  font-size: 22px;
+}
+
+.cs-font_24 {
+  font-size: 24px;
+}
+
+.cs-font_30 {
+  font-size: 30px;
+}
+
+.cs-font_36 {
+  font-size: 36px;
+}
+
+.cs-font_42 {
+  font-size: 42px;
+}
+
+.cs-font_50 {
+  font-size: 50px;
+}
+
+.cs-font_60 {
+  font-size: 60px;
+}
+
+.cs-font_64 {
+  font-size: 64px;
+}
+
+.cs-mp0 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cs-m0 {
+  margin: 0;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-top: 1px solid #f2f1ff;
+}
+
+.cs-bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cs-vertical_middle {
+  display: flex;
+  align-items: center;
+  min-height: 100%;
+}
+
+.cs-vertical_middle_in {
+  flex: none;
+  width: 100%;
+}
+
+.cs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cs-white_color,
+.cs-white_color_hover:hover {
+  color: $white;
+}
+
+.cs-primary_color {
+  color: $primary;
+}
+
+.cs-accent_color,
+.cs-accent_color_hover:hover {
+  color: $accent;
+}
+
+.cs-gradient_color {
+  background: linear-gradient(108.18deg, #EA4C89 -12.02%, #4D44C6 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cs-light_bg {
+  background-color: #fff;
+}
+
+.cs-gray_bg {
+  background-color: $gray;
+}
+
+.cs-accent_bg_1,
+.cs-accent_bg_1_hover:hover {
+  background-color: rgba($accent, 0.01);
+}
+
+.cs-accent_bg_2,
+.cs-accent_bg_2_hover:hover {
+  background-color: rgba($accent, 0.02);
+}
+
+.cs-accent_bg_3,
+.cs-accent_bg_3_hover:hover {
+  background-color: rgba($accent, 0.03);
+}
+
+.cs-accent_bg_4,
+.cs-accent_bg_4_hover:hover {
+  background-color: rgba($accent, 0.04);
+}
+
+.cs-accent_bg_5,
+.cs-accent_bg_5_hover:hover {
+  background-color: rgba($accent, 0.05);
+}
+
+.cs-accent_bg_6,
+.cs-accent_bg_6_hover:hover {
+  background-color: rgba($accent, 0.06);
+}
+
+.cs-accent_bg_7,
+.cs-accent_bg_7_hover:hover {
+  background-color: rgba($accent, 0.07);
+}
+
+.cs-accent_bg_8,
+.cs-accent_bg_8_hover:hover {
+  background-color: rgba($accent, 0.08);
+}
+
+.cs-accent_bg_9,
+.cs-accent_bg_9_hover:hover {
+  background-color: rgba($accent, 0.09);
+}
+
+.cs-accent_bg_10,
+.cs-accent_bg_10_hover:hover {
+  background-color: rgba($accent, 0.1);
+}
+
+.cs-accent_bg_15,
+.cs-accent_bg_15_hover:hover {
+  background-color: rgba($accent, 0.15);
+}
+
+.cs-accent_bg_20,
+.cs-accent_bg_20_hover:hover {
+  background-color: rgba($accent, 0.2);
+}
+
+.cs-accent_bg_25,
+.cs-accent_bg_25_hover:hover {
+  background-color: rgba($accent, 0.25);
+}
+
+.cs-accent_bg_30,
+.cs-accent_bg_30_hover:hover {
+  background-color: rgba($accent, 0.3);
+}
+
+.cs-accent_bg_35,
+.cs-accent_bg_35_hover:hover {
+  background-color: rgba($accent, 0.35);
+}
+
+.cs-accent_bg_40,
+.cs-accent_bg_40_hover:hover {
+  background-color: rgba($accent, 0.4);
+}
+
+.cs-accent_bg_50,
+.cs-accent_bg_50_hover:hover {
+  background-color: rgba($accent, 0.5);
+}
+
+.cs-accent_bg_60,
+.cs-accent_bg_60_hover:hover {
+  background-color: rgba($accent, 0.6);
+}
+
+.cs-accent_bg_70,
+.cs-accent_bg_70_hover:hover {
+  background-color: rgba($accent, 0.7);
+}
+
+.cs-accent_bg_80,
+.cs-accent_bg_80_hover:hover {
+  background-color: rgba($accent, 0.8);
+}
+
+.cs-accent_bg_90,
+.cs-accent_bg_90_hover:hover {
+  background-color: rgba($accent, 0.9);
+}
+
+.cs-accent_bg,
+.cs-accent_bg_hover:hover {
+  background-color: $accent;
+}
+
+.cs-primary_bg,
+.cs-primary_bg_hover:hover {
+  background-color: $primary;
+}
+
+
+.cs-accent_seperator_1 {
+  margin-bottom: -24px;
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(90deg, $accent 50%, transparent 50%), linear-gradient(90deg, $accent 50%, transparent 50%), linear-gradient(0deg, $accent 50%, transparent 50%), linear-gradient(0deg, $accent 50%, transparent 50%);
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px;
+  background-position: 0px 0px, 200px 100px, 0px 100px, 200px 0px;
+  padding: 0;
+  animation: borderDance 10s infinite linear;
+}
+@keyframes borderDance {
+  0% {
+    background-position: 0px 0px, 300px 116px, 0px 150px, 216px 0px;
+  }
+  100% {
+    background-position: 300px 0px, 0px 116px, 0px 0px, 216px 150px;
+  }
+}
+.cs-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 30px;
+  transition: all 0.3s ease;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  color: $primary;
+  position: relative;
+  line-height: 1.6em;
+  cursor: pointer;
+  border-radius: 7px;
+  font-weight: 500;
+  svg {
+    width: 22px;
+    height: 22px;
+    margin-right: 8px;
+  }
+  >* {
+    position: relative;
+    z-index: 1;
+  }
+  &.cs-color1 {
+    color: $accent;
+    background-color: rgba($accent,0.2);
+    &:hover {
+      background-color: $accent;
+      color: #fff;
+    }
+  }
+}
+
+.cs-btn_bordered {
+  border-color: $primary;
+  &:hover {
+    border-color: $primary;
+    color: $white;
+    background-color: $primary;
+  }
+}
+
+.cs-btn_filed {
+  &::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-radius: inherit;
+    background-color: rgba($primary, 0.20);
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+  &:hover {
+    &::after {
+      opacity: 1;
+    }
+  }
+}
+
+.cs-accent_btn {
+  color: $white;
+  background-color: $accent;
+  border-color: $accent;
+  &:hover {
+    color: $white;
+  }
+}
+.cs-white_btn {
+  background-color: #fff;
+  border-color: #fff;
+  color: $primary;
+  &:hover {
+    background-color: transparent;
+    color: #fff;
+    &:after {
+      background-color: rgba(255, 255, 255, 0.15);
+    }
+  }
+}
+.cs-white_btn_2 {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+  &:hover {
+    background-color: transparent;
+    color: #fff;
+    &:after {
+      background-color: rgba(255, 255, 255, 0.15);
+    }
+  }
+}
+
+.cs-primary_btn {
+  color: $white;
+  background-color: $primary;
+  border-color: $primary;
+  &:hover {
+    color: $white;
+    background-color: $accent;
+    border-color: $accent;
+    &::after {
+      opacity: 0;
+    }
+  }
+}
+
+.cs-seciton_heading.cs-style1 {
+  .cs-section_title {
+    display: inline-block;
+    border-radius: 7px;
+    position: relative;
+    padding-left: 13px;
+    margin-bottom: 6px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 2px;
+      width: 5px;
+      height: 15px;
+      background: linear-gradient(108.18deg, #EA4C89 -2.02%, #4D44C6 100%);
+    }
+  }
+}
+
+.cs-btn_group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  >* {
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+}
+
+.cs-right_space_40 {
+  padding-right: 40px;
+}
+.cs-right_space_150 {
+  padding-right: 150px;
+}
+.cs-play_btn {
+  display: inline-flex;
+  align-items: center;
+  span {
+    margin-left: 10px;
+  }
+}
+
+.cs-shape_wrap {
+  position: relative;
+  overflow: hidden;
+  .cs-shape {
+    position: absolute;
+    pointer-events: none;
+  }
+  .cs-shape_posiiton_1 {
+    left: 0;
+    bottom: 0;
+    opacity: 0.2;
+  }
+  .cs-shape_posiiton_2 {
+    right: 0;
+    bottom: 0;
+    opacity: 0.2;
+  }
+  >*:not(.cs-shape) {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.cs-logo_carousel {
+  height: 100px;
+  padding: 10px;
+}
+.cs-form_field_wrap {
+  position: relative;
+  label {
+    position: absolute;
+    background-color: #F4F6F9;
+    display: inline-block;
+    line-height: 1.4em;
+    top: -11px;
+    left: 10px;
+    padding: 0 5px;
+    pointer-events: none;
+  }
+}
+.cs-form_field {
+  display: block;
+  width: 100%;
+  border: 1px solid rgba($primary, 0.1);
+  padding: 10px 15px;
+  border-radius: 7px;
+  outline: none;
+  transition: all 0.3s ease;
+  background-color: transparent;
+  &:focus {
+    border-color: $accent;
+  }
+}
+
+.cs-right_full_width {
+  width: calc(50vw - 12px);
+  padding-right: 24px;
+}
+.cs-accordian {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.cs-accordian_title {
+  padding: 19px 40px 19px 75px;
+
+  span {
+    position: absolute;
+    left: 30px;
+    top: 19px;
+  }
+}
+.cs-accordian_head {
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.cs-accordian_toggle {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  background-color: $primary;
+  top: 20px;
+  right: 20px;
+  transition: all 0.3s ease;
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 40%;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    margin-top: -1px;
+    left: 30%;
+    transition: inherit;
+  }
+  &::after {
+    transform: rotate(90deg);
+  }
+}
+.cs-accordian.active {
+  .cs-accordian_toggle {
+    &::after {
+      transform: rotate(0deg);
+    }
+  }
+}
+.cs-accordian:not(.active) {
+  &:hover {
+    .cs-accordian_head {
+      background-color: rgba($accent, 0.15);
+    }
+    .cs-accordian_toggle {
+      background-color: $accent;
+    }
+  }
+}
+.cs-accordian_body {
+  max-height: 0;
+  overflow: hidden;
+  transition: all .5s cubic-bezier(0,1,0,1);
+}
+.cs-accordian_body_in {
+  padding: 0 30px 20px 80px;
+}
+.cs-accordian.active {
+  .cs-accordian_body {
+    height: auto;
+    max-height: 9999px;
+    transition: all .5s cubic-bezier(1,0,1,0);
+  }
+}
+.cs-accordians.cs-style1 {
+  >*:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}
+.cs-footer_wrap {
+  background: linear-gradient(0deg, rgba($accent, 0.1) 0%, transparent 95.61%);
+}
+.cs-hide_dark {
+  display: inline-block;
+}
+.cs-hide_white {
+  display: none;
+}
+.cs-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba($primary, 0.9);
+  width: 100vw;
+  height: 100vh;
+  z-index: 300;
+  overflow: auto;
+  opacity: 0;
+  visibility: hidden;
+  &.active {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.cs-modal_container {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  position: relative;
+}
+.cs-wallet_secton {
+  padding: 45px 75px;
+}
+.cs-modal_in {
+  padding: 8% 20px 30px;
+}
+.cs-list.cs-style1 {
+  li {
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+    background-color: rgba($accent, 0.1);
+    &:hover {
+      background-color: rgba($accent, 0.2);
+    }
+  }
+}
+.cs-close_modal {
+  padding: 0;
+  border: none;
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background-color: $primary;
+  &:hover {
+    background-color: red;
+  }
+}
+.cs-quantity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 45px;
+  border: 1px solid $border;
+  border-radius: 5px;
+  width: 158px;
+  padding: 0 16px;
+  .cs-quantity_btn {
+    outline: none;
+    border: none;
+    padding: 0;
+    font-size: 24px;
+    background-color: transparent;
+    &:hover {
+      color: $accent;
+    }
+  }
+  .cs-quantity_number {
+    width: 40px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+}
+.cs-mint_secton {
+  padding: 50px;
+}
+ul.cs-list.cs-style2 {
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+}
+.cs-zoom_effect {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  >* {
+    transition: all 0.4s ease;
+  }
+  &:hover {
+    >* {
+      transform: scale(1.08);
+    }
+  }
+}
+.page-link {
+  min-width: 60px;
+  text-align: center;
+  padding: 12px 20px;
+  background-color: transparent;
+  color: $primary;
+  border-color: $border;
+  border-radius: 0 !important;
+  &:hover {
+    color: $accent;
+    background-color: rgba($accent, 0.1);
+    border-color: rgba($accent, 0.1);
+  }
+}
+.pagination {
+  margin: -7px;
+  flex-wrap: wrap;
+}
+.page-item {
+  margin: 7px;
+}
+.page-item.active {
+  .page-link {
+    pointer-events: none;
+  }
+}
+.cs-demo {
+  display: block;
+  h3 {
+    margin-top: 16px;
+    transition: all 0.3s ease;
+  }
+  &:hover {
+    h3 {
+      color: $accent;
+    }
+  }
+}
+
+.tm_feature_box {
+  text-align: center;
+  padding: 50px 15px;
+}
+
+.tm_feature_box_icon {
+  height: 60px;
+  width: 75px;
+  background: linear-gradient(90deg, rgba(0, 82, 255, 0.3) 0%, transparent 95.61%);
+  color: $accent;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  svg {
+    height: 30px;
+    width: 30px;
+  }
+}
+.cs-demo_img {
+  background: linear-gradient(108.18deg, rgba(234, 76, 137, 0.2) -2.02%, rgba(77, 68, 198, 0.2) 100%);
+  padding: 5px;
+  img {
+    width: 100%;
+  }
+}
+
+.cs-info_title {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+.cs-info_box {
+  display: flex;
+  align-items: flex-start;
+  h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  p {
+    margin: 0;
+  }
+}
+.cs-info_box_icon {
+  flex: none;
+  font-size: 24px;
+  display: flex;
+  color: #0052FF;
+  width: 24px;
+  margin-right: 20px;
+  padding-top: 1px;
+}
+.cs-error {
+  h1 {
+    font-size: 100px;
+    margin-bottom: 0px;
+  }
+  h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 35px;
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  .cs-accordian_title span {
+    left: 20px;
+}
+.cs-accordian_title {
+  padding: 19px 40px 19px 65px;
+}
+.cs-right_space_150 {
+  padding-right: 50px;
+}
+.cs-accordian_body_in {
+  padding: 0 30px 20px 65px;
+}
+}
+@media screen and (max-width: 1199px) {
+  .cs-right_space_40,
+  .cs-right_space_150 {
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  .cs-left_space_30 {
+    padding-left: 0px;
+  }
+  .cs-font_14_sm {
+    font-size: 14px;
+  }
+  .cs-font_16_sm {
+    font-size: 16px;
+  }
+  
+  .cs-font_18_sm {
+    font-size: 18px;
+  }
+  
+  .cs-font_20_sm {
+    font-size: 20px;
+  }
+  
+  .cs-font_22_sm {
+    font-size: 22px;
+  }
+  
+  .cs-font_24_sm {
+    font-size: 24px;
+  }
+  
+  .cs-font_30_sm {
+    font-size: 28px;
+  }
+  
+  .cs-font_42_sm {
+    font-size: 42px;
+  }
+  
+  .cs-font_36_sm {
+    font-size: 36px;
+  }
+  .cs-btn {
+    padding: 9px 15px;
+  }
+  .cs-btn_group > *:not(:last-child) {
+    margin-right: 10px;
+  }
+  .flex-column-reverse-lg {
+    flex-direction: column-reverse;
+  }
+  .cs-seciton_heading.cs-style1 .cs-section_title::before {
+    top: 1px;
+  }
+  .cs-accent_seperator_1 {
+    display: none;
+  }
+  .cs-accordian_toggle {
+    height: 20px;
+    width: 20px;
+  }
+  .cs-accordian_title {
+    padding: 19px 40px 19px 55px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .cs-mint_secton,
+  .cs-wallet_secton {
+    padding: 55px 15px 30px 15px;
+  }
+  .cs-modal_in {
+    padding: 0;
+  }
+  .cs-modal_container {
+    max-width: 100%;
+    min-height: 100vh;
+  }
+  .cs-close_modal {
+    right: 10px;
+    top: 10px;
+  }
+  .cs-quantity {
+    width: 120px;
+    padding: 0 10px;
+  }
+  .page-link {
+    padding: 6px 8px;
+    min-width: 40px;
+  }
+  .page-item {
+    margin: 3px;
+  }
+  .pagination {
+    margin: -3px;
+  }
+  .cs-accordian_body_in {
+    padding: 0 25px 20px 25px;
+  }
+}

@@ -1,0 +1,55 @@
+@import "../../sass/default/color_variable";
+.cs-team.cs-style1 {
+  border-radius: 10px;
+  transition: all 0.4s ease;
+  &:hover {
+    transform: translateY(-5px);
+  }
+  &:not(.cs-type1) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .cs-member_thumb {
+    position: relative;
+    padding: 0 15px;
+    img {
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      height: 175px;
+    }
+  }
+  .cs-member_social {
+    flex-wrap: wrap;
+    margin: -10px;
+    >* {
+      margin: 10px;
+    }
+    svg {
+      height: 20px;
+      width: 20px;
+    }
+    a {
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+  &.cs-type1 {
+    background: transparent;
+    .cs-member_thumb {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      padding: 30px;
+      margin-left: auto;
+      margin-right: auto;
+      img {
+        max-height: 100%;
+      }
+    }
+  }
+}
+.slick-slider .cs-team.cs-style1:hover {
+  transform: initial;
+}

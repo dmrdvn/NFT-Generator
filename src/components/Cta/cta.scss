@@ -1,0 +1,23 @@
+.cs-cta.cs-style1 {
+  padding: 75px 30px 80px;
+  border-radius: 16px;
+  .cs-cta_btns {
+    flex-wrap: wrap;
+    margin: -7px;
+    >* {
+      margin: 7px;
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .cs-cta.cs-style1 {
+    br {
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 575px) {
+  .cs-cta.cs-style1 {
+    padding: 60px 20px 70px;
+  }
+}

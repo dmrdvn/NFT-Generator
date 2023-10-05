@@ -1,0 +1,116 @@
+@import "../../sass/default/color_variable";
+.cs-card.cs-style1 {
+  position: relative;
+  background: linear-gradient(90deg, #FFFFFF 47.8%, rgba(255, 255, 255, 0.22) 75.6%);
+  overflow: hidden;
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: $gray;
+    right: -125px;
+    border: 1px solid $border;
+  }
+  &::before {
+    top: -142px;
+    transform: rotate(55deg);
+  }
+  &::after {
+    bottom: -142px;
+    right: -125px;
+    transform: rotate(35deg);
+  }
+
+  .cs-card_in {
+    height: 192px;
+    display: flex;
+    align-items: center;
+    padding: 20px 70px 20px 25px;
+    border: 1px solid $border;
+  }
+  .cs-card_arrow {
+    font-size: 32px;
+    position: absolute;
+    right: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.4s ease;
+  }
+  .cs-card_title {
+    max-width: 200px;
+  }
+  &:hover {
+    .cs-card_arrow {
+      transform: translateY(-50%) scale(1.2);
+    }
+  }
+}
+
+.cs-card.cs-style2 {
+  .cs-card_number {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    position: relative;
+  }
+  .cs-card_tick {
+    position: absolute;
+    right: -4px;
+    top: 3px;
+    display: flex;
+  }
+  .cs-card_in {
+    padding: 25px;
+    border-radius: 0 10px 10px;
+  }
+}
+.cs-card.cs-style3 {
+  padding: 35px 30px 30px;
+  transition: all 0.5s ease;
+  border-radius: 10px;
+  &:hover {
+    transform: scale(1.04);
+  }
+  .cs-card_number {
+    -webkit-text-stroke: 1px $accent;
+    color: transparent;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    position: relative;
+    &:before {
+      content: '';
+      position: absolute;
+      height: 100%; 
+      width: 100%; 
+      border: 2px dashed $accent;
+      top: 0px;
+      left: 0px;
+      border-radius: inherit;
+      animation: spin 10s linear infinite;
+    }
+  }
+}
+@keyframes spin { 
+  100% { 
+    transform: rotateZ(360deg); 
+  }
+}
+@media screen and (max-width: 991px) {
+.cs-card.cs-style1 {
+  .cs-card_title {
+    max-width: 180px;
+  }
+  .cs-card_in {
+    height: 140px;
+  }
+  &:before,
+  &::after {
+    display: none;
+  }
+}
+}
