@@ -11,11 +11,13 @@ export default function Footer() {
       
       <Section tag='footer' className="cs-footer text-center">
         <Section className="container">
+          
           <Section className="cs-height_100 cs-height_lg_70" />
-          <Section className="cs-footer_logo">
-            <img src="/images/logo_footer.svg" alt="logo" className="cs-hide_dark" />
-            <img src="/images/logo_footer_white.svg" alt="logo" className="cs-hide_white" />
-          </Section>
+          
+          {/* <Section className="cs-footer_logo">
+            <img src="/images/logov1-dark.png" alt="logo" className="cs-hide_dark" />
+            <img src="/images/logov1.png" alt="logo" className="cs-hide_white" />
+          </Section> */}
           <Section className="cs-height_25 cs-height_lg_25" />
           <Section className="cs-social_btns cs-center">
             

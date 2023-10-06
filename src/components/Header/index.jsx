@@ -15,8 +15,8 @@ export default function Header() {
             <Section className="cs-main_header_in">
               <Section className="cs-main_header_left">
                 <Link to='/' className="cs-site_branding cs-accent_color">
-                  <img src="/images/logo.svg" alt="Logo" className="cs-hide_dark" />
-                  <img src="/images/logo_white.svg" alt="Logo" className="cs-hide_white" />
+                  <img src="/images/logov1-dark.png" alt="Logo" className="cs-hide_dark" />
+                  <img src="/images/logov1.png" alt="Logo" className="cs-hide_white" />
                 </Link>
               </Section>
               <Section className="cs-main_header_center">
@@ -24,7 +24,7 @@ export default function Header() {
                   <ul className="cs-nav_list" style={{display:`${mobileToggle?'block':'none'}`}}>
                     <li><ScrollLink to="hero" spy={true} smooth={true} offset={-80} duration={500} onClick={()=>setMobileToggle(false)}>Anasayfa</ScrollLink></li>
                     
-                    <li><ScrollLink to="about" spy={true} smooth={true} offset={-80} duration={500} onClick={()=>setMobileToggle(false)}>Uygulama Hakkında</ScrollLink></li>
+                    <li><ScrollLink to="about" spy={true} smooth={true} offset={-80} duration={500} onClick={()=>setMobileToggle(false)}>Hakkında</ScrollLink></li>
                     <li><ScrollLink to="roadmap" spy={true} smooth={true} offset={-80} duration={500} onClick={()=>setMobileToggle(false)}>Geliştirme</ScrollLink></li>
                     
                     <li><ScrollLink to="faq" spy={true} smooth={true} offset={-80} duration={500} onClick={()=>setMobileToggle(false)}>Nasıl Kullanılır ?</ScrollLink></li>

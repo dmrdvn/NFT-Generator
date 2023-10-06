@@ -38,10 +38,9 @@ export default function Hero({title, bgUrl, heroImageUrl, animatedUrl, variant, 
           </Section>
           <Section className="cs-hero_img">
             <img src={heroImageUrl} alt="Hero" />
-            <Section className="cs-hero_img_sm">
-              <img src={animatedUrl} alt="Hero" />
-            </Section>
+            
           </Section>
+          
         </Section>
         {bubble && (
           <Section id="background-wrap">
